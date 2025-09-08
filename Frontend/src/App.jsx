@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import HomePage from "./pages/HomePage.jsx";
-import AuthPage from "./pages/AuthPage.jsx";
+import Authpage from "./pages/Authpage.jsx";
 import "./index.css";
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
 
   const renderContent = () => {
     if (!isLoggedIn && currentPage === "auth") {
-      return <AuthPage onLogin={handleLogin} />;
+      return <Authpage onLogin={handleLogin} />;
     }
 
     // This is the user's main app view

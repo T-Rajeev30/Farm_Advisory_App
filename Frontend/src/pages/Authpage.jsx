@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const AuthPage = ({ onLogin }) => {
+const Authpage = ({ onLogin }) => {
   const [isLogin, setIsLogin] = useState(true);
   const [formData, setFormData] = useState({
     email: "",
@@ -148,4 +148,4 @@ const AuthPage = ({ onLogin }) => {
   );
 };
 
-export default AuthPage;
+export default Authpage;
