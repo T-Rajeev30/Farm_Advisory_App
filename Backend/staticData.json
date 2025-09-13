@@ -1,0 +1,5 @@
+[
+{ "state": "Punjab", "crop": "Wheat", "price": "2000 INR per quintal" },
+{ "state": "Maharashtra", "crop": "Sugarcane", "price": "3000 INR per quintal" },
+{ "state": "Uttar Pradesh", "crop": "Rice", "price": "1800 INR per quintal" }
+]
